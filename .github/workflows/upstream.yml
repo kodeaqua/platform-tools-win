@@ -33,5 +33,6 @@ jobs:
           mkdir -p ./tmp
           latest="r33.0.1"
           wget https://dl.google.com/android/repository/platform-tools_$latest-windows.zip -P ./tmp
+          unzip -o ./tmp/platform-tools_$latest-windows.zip
           cp -fr ./tmp/platform-tools/* ..
           rm -r ./tmp
