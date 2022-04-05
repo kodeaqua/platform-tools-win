@@ -19,7 +19,7 @@ latest="r33.0.1";
 
 wget https://dl.google.com/android/repository/platform-tools_$latest-windows.zip -P ./tmp;
 
-unzip -o ./tmp/platform-tools_$latest-windows.zip && mv -f ./tmp/platform-tools ..;
+unzip -o ./tmp/platform-tools_$latest-windows.zip && mv -f ./tmp/platform-tools ../..;
 
 rm -r ./tmp;
 
